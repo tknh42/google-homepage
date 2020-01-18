@@ -1,0 +1,21 @@
+li {
+    display: inline;
+    float: left;
+
+}
+
+li a{
+    padding:5px;
+}
+
+.logo{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.searchbox{
+    position:absolute;
+    top:50%;
+    left:40%;
+}
