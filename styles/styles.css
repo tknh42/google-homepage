@@ -5,7 +5,7 @@
   
 }
 body{
-    font-size:small;
+    font-size:16px;
     color:#222;
 }
 .viewport{
@@ -21,7 +21,7 @@ body{
     min-width: 1400px;
     height:40px;
     font-family:arial,sans-serif;
-    font-size:11px;
+    font-size:14px;
 }
 
 .left{
@@ -76,7 +76,9 @@ body{
     min-width:1400px;
 
 }
-
+.content img{
+    width:200px;
+}
 #search:hover{
     box-shadow: 2px 2px 20px lightgray;
 }
