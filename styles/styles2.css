@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 2px 3px;
+    box-sizing: border-box;
+}
+
+.left {
+    float:left;
+}
+
+.right{
+    float: right;
+}
+
+header {
+    min-width: 1500px;
+}
+
+
+.nav_links li{
+    display:inline-block;
+    background-color: grey;
+
+
+}
+

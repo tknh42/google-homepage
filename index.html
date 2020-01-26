@@ -5,41 +5,41 @@
     <title>
         "Google"
     </title>
+    <link rel="styleshee" type="text/css" href="styles/reset.css"/>
     <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
     
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwis3oqmx43nAhVJrVkKHb4BDAMQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</a></li>
-            
-            <li class="rightheader"><a class="sign in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dgoogle%2Bicons%26source%3Dlnms%26sa%3DX%26ved%3D0ahUKEwibrOTByI3nAhUOTN8KHdKnBy0Q_AUIDCgA%26biw%3D1920%26bih%3D944%26dpr%3D1">Sign In</a></li>
-            <li class="rightheader"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-            <li class="rightheader"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-
-        </ul>
-    </header>
-
-    <div>
-        <img class="logo"
+    <div class="viewport">
+    <div class="container">
+            <ul class="nav">
+                <div class="left">
+                    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwis3oqmx43nAhVJrVkKHb4BDAMQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</a></li>
+                </div>
+                <div class="right">
+                    <li ><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+                    <li ><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                    <li ><a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dgoogle%2Bicons%26source%3Dlnms%26sa%3DX%26ved%3D0ahUKEwibrOTByI3nAhUOTN8KHdKnBy0Q_AUIDCgA%26biw%3D1920%26bih%3D944%26dpr%3D1">Sign In</a></li>           
+                </div>
+            </ul>
+    </div>
+    
+    <div class="content" id="logo">
+    <img 
             src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt = "Google logo">
-        
-        <p class="searchbox">
-            <input type="search" id = "searching" name="search" im>
-            <img class = "search icon"
-                 src = "https://cdn1.iconfinder.com/data/icons/menu-3-3/32/google_search_glass-512.png" 
-                 alt = "Google search icon"
-                >
-            <br>
+            alt = "Google logo"/>
+    </div>
+
+        <div class ="content" id="searchbox">
+            <input type="search" id = "search" name="search" autocomplete="off">
+        </div>
+        <div class="content" id ="submit">
             <input type="submit" value ="Google Search">
             <input type="submit" value ="I'm feeling lucky">
-
-        </p>
-        
+        </div>
     </div>
-    <footer></footer>
+</div>
 
 </body>

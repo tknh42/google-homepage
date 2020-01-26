@@ -1,61 +1,109 @@
-li {
-    margin-left:0px;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-size:small;
+    color:#222;
+}
+.viewport{
+    min-height:100%;
+    position:absolute;
+    top:0;
+    width:100%;
+
     
-    display: inline;
-    font: .9em "Arial", sans-serif;
+}
+.container{
+    margin:7px 0 0 10px;
+    min-width: 1400px;
+    height:40px;
+    font-family:arial,sans-serif;
+    font-size:11px;
 }
 
-li a{
+.left{
+    margin:7px 0 0 10px;
+    float:left;
+    width:100px;
+
+}
+
+.right{
+    margin:7px 0 0 10px;
+    float:right;
+    padding-right:30px;
+}
+
+.nav li {
+    display:inline-block;
     padding:5px;
+}
+
+.nav li a{
     color:black;
     text-decoration:none;
 }
-a:hover {
+
+.nav li a:hover {
     text-decoration: underline;
 }
 
-.logo{
-    position: relative;
-    left: 600px;
-    top: 150px;
-    margin-bottom:10px;
+#signin {
+    display:inline-block;
+    line-height:28px;
+    padding:0 12px;
+    font-weight:bold;
+    color:white;
+    background-color: #4285f4;
+    border-radius:2px;
+    opacity:1;
 }
 
-.searchbox {
-    position:absolute;
-    top:325px;
-    left:400px;
+#logo{
+    padding-top:120px;
+    height:220px;
+    margin-bottom: 20px;
+
 }
 
-.searchbox img{
-    position:absolute;
-    left:20px;
-    top:1em;
-    width:.8em;
-    height:.8em;
-    opacity: 50%;
+.content{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    min-width:1400px;
+
 }
 
-.searchbox input[type=search] {
-    width: 700px;
-    height: 3em;
-    border-radius: 100px;
-    border-style:solid;
-    padding: 1.5em;
+#search:hover{
+    box-shadow: 2px 2px 20px lightgray;
+}
+
+
+#search{
+    background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)) , url("https://cdn1.iconfinder.com/data/icons/menu-3-3/32/google_search_glass-512.png") 3%/2.2%  no-repeat;
+    width:582px;
+    border-radius: 24px;
+    height:44px;
+    border: 1px solid #dfe1e5;
     padding-left:50px;
-    border-color:lightgrey;
-    color:black;
-    font-size:12px;
-    margin-bottom: 2em;
+    color:rgba(0,0,0,.87);
 }
 
-.searchbox input[type=submit] {
-    position:relative;
-    left:19em;
-    top: 1em;
+.content input[type=submit]{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    border-radius:4px;
+    margin:18px 6px;
+    height:34px;
+    width:111px;
+    line-height: 27px;
+    text-align: center;
+    color:#5F6368;
 }
 
-.rightheader {
-    position: relative;
-    float:right;
+.content input[type=submit]:hover{
+    box-shadow: 2px 2px 8px;
 }
